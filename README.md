@@ -19,44 +19,44 @@ When sending a function into the pooler (with the appropriate channel), this fun
 
 ```go
 func main() {
-  log := logrus.WithContext(context.Background())
+    log := logrus.WithContext(context.Background())
 
-  pooler, err := pooling.NewPoolerBuilder().
-    SetSizes(10, 500, ...). // each size will initialize a pool with given size
-    SetOptions(ants.WithLogger(log)).
-    Build()
-  if err != nil {
-    panic(err)
-  }
-  defer pooler.Close()
+    pooler, err := pooling.NewPoolerBuilder().
+        SetSizes(10, 500, ...). // each size will initialize a pool with given size
+        SetOptions(ants.WithLogger(log)).
+        Build()
+    if err != nil {
+        panic(err)
+    }
+    defer pooler.Close()
 
-  input := ReadFrom()
+    input := ReadFrom()
 
-  // Read function is blocking until input is closed
-  // and all running routines have ended
-  pooler.Read(input)
+    // Read function is blocking until input is closed
+    // and all running routines have ended
+    pooler.Read(input)
 }
 
 func ReadFrom() <-chan pooling.PoolerFunc {
-  input := make(chan pooling.PoolerFunc)
+    input := make(chan pooling.PoolerFunc)
 
-  go func() {
-    // close input to stop blocking function Read once all elements are sent to input
-    defer close(input)
+    go func() {
+        // close input to stop blocking function Read once all elements are sent to input
+        defer close(input)
 
-    // do something populating input channel
-    for i := range 100 {
-      input <- HandleInt(i)
-    }
-  }()
+        // do something populating input channel
+        for i := range 100 {
+            input <- HandleInt(i)
+        }
+    }()
 
-  return input
+    return input
 }
 
 func HandleInt(i int) pooling.PoolerFunc {
-  return func(funcs chan<- pooling.PoolerFunc) {
-    // you may handle the integer whichever you want
-    // funcs channel is present to dispatch again some elements into a channel handled by the pooler
-  }
+    return func(funcs chan<- pooling.PoolerFunc) {
+        // you may handle the integer whichever you want
+        // funcs channel is present to dispatch again some elements into a channel handled by the pooler
+    }
 }
 ```
