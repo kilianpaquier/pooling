@@ -2,6 +2,7 @@
 
 ignore:
   - "cmd"
+  - "examples"
   - "**/cobra"
   - "**/tests"
   - "**/testutils"
