@@ -4,5 +4,6 @@ maintainers:
     - url: kilianpaquier.com
       name: kilianpaquier
 codecov: true
+dependabot: true
 no_api: true
 no_chart: true
