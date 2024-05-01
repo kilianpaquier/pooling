@@ -1,3 +1,12 @@
+## [1.0.1](https://github.com/kilianpaquier/pooling/compare/v1.0.0...v1.0.1) (2024-05-01)
+
+
+### Chores
+
+* **deps:** bump golangci/golangci-lint-action from 4 to 5 ([49bc211](https://github.com/kilianpaquier/pooling/commit/49bc21103c146c9c2489a929940b6b8df8014d0e))
+* **golangci:** remove govet deleted option ([fe9d114](https://github.com/kilianpaquier/pooling/commit/fe9d1142e8ac2135d604aac7f2b64cb85a4bde2b))
+* **go:** update go to 1.22.2 ([c6b85e0](https://github.com/kilianpaquier/pooling/commit/c6b85e0c55a9d3ae23d5551fd3319cbb05f1ff54))
+
 ## 1.0.0 (2024-03-30)
 
 
