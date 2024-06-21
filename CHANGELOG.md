@@ -1,3 +1,11 @@
+## [1.0.2](https://github.com/kilianpaquier/pooling/compare/v1.0.1...v1.0.2) (2024-06-21)
+
+
+### Chores
+
+* **deps:** bump github.com/panjf2000/ants/v2 in the minor-patch group ([88c188c](https://github.com/kilianpaquier/pooling/commit/88c188c1dd4e9f7ed74efc426fbd2fcb89c87458))
+* **deps:** upgrade toolchain to go1.22.3 ([35d6b66](https://github.com/kilianpaquier/pooling/commit/35d6b66c3de9fba306b5f6c3a2ab7976456f9cf7))
+
 ## [1.0.1](https://github.com/kilianpaquier/pooling/compare/v1.0.0...v1.0.1) (2024-05-01)
 
 
