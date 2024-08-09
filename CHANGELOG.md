@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/kilianpaquier/pooling/compare/v1.0.2...v1.0.3) (2024-08-09)
+
+
+### Chores
+
+* **deps:** upgrade go toolchain to go1.22.6 ([99f4efe](https://github.com/kilianpaquier/pooling/commit/99f4efeabb1bad530eaf9baf8c7025d14b375080))
+
 ## [1.0.2](https://github.com/kilianpaquier/pooling/compare/v1.0.1...v1.0.2) (2024-06-21)
 
 
