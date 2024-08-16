@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/kilianpaquier/pooling/compare/v1.0.3...v1.0.4) (2024-08-16)
+
+
+### Chores
+
+* **go:** downgrade go version to 1.18 ([8123c55](https://github.com/kilianpaquier/pooling/commit/8123c555e432a799ba8a70b4581e748fc9ce1a0d))
+
 ## [1.0.3](https://github.com/kilianpaquier/pooling/compare/v1.0.2...v1.0.3) (2024-08-09)
 
 
