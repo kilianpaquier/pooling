@@ -1,3 +1,9 @@
+## [1.0.5](https://github.com/kilianpaquier/pooling/compare/v1.0.4...v1.0.5) (2024-10-05)
+
+### Chores
+
+* **go.mod:** upgrade to go1.23 ([1166f9d](https://github.com/kilianpaquier/pooling/commit/1166f9d257893411353e04844f33ee82686e9cf7))
+
 ## [1.0.4](https://github.com/kilianpaquier/pooling/compare/v1.0.3...v1.0.4) (2024-08-16)
 
 
