@@ -5,6 +5,7 @@ import (
 
 	"github.com/panjf2000/ants/v2"
 	"github.com/stretchr/testify/assert"
+	"github.com/stretchr/testify/require"
 
 	pooling "github.com/kilianpaquier/pooling/pkg"
 )
@@ -36,7 +37,7 @@ func TestBuild(t *testing.T) {
 			Build()
 
 		// Assert
-		assert.NoError(t, err)
+		require.NoError(t, err)
 		pooler.Close()
 	})
 }
