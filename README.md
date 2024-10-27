@@ -3,7 +3,6 @@
 # pooling <!-- omit in toc -->
 
 <p align="center">
-  <img alt="GitHub Actions" src="https://img.shields.io/github/actions/workflow/status/kilianpaquier/pooling/integration.yml?branch=main&style=for-the-badge">
   <img alt="GitHub Release" src="https://img.shields.io/github/v/release/kilianpaquier/pooling?include_prereleases&sort=semver&style=for-the-badge">
   <img alt="GitHub Issues" src="https://img.shields.io/github/issues-raw/kilianpaquier/pooling?style=for-the-badge">
   <img alt="GitHub License" src="https://img.shields.io/github/license/kilianpaquier/pooling?style=for-the-badge">
