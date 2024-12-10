@@ -1,3 +1,10 @@
+## [1.0.6](https://github.com/kilianpaquier/pooling/compare/v1.0.5...v1.0.6) (2024-12-10)
+
+### Chores
+
+* **deps:** bump github.com/stretchr/testify in the minor-patch group ([393bbc4](https://github.com/kilianpaquier/pooling/commit/393bbc40d83c80be44c856740d22736ff1eb4baf))
+* **deps:** upgrade golang.org/x/sync to v0.10.0 ([2fe098b](https://github.com/kilianpaquier/pooling/commit/2fe098bd2027a02a0c433f8d58d6751bb1d753aa))
+
 ## [1.0.5](https://github.com/kilianpaquier/pooling/compare/v1.0.4...v1.0.5) (2024-10-05)
 
 ### Chores
