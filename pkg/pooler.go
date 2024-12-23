@@ -49,7 +49,7 @@ func (p *Pooler) readAt(index int, funcs <-chan PoolerFunc) {
 	}
 
 	for f := range funcs {
-		// add one to gloal Pooler running routines to ensure at the end of Read
+		// add one to global Pooler running routines to ensure at the end of Read
 		// that all running routines end
 		p.wg.Add(1)
 
