@@ -1,3 +1,9 @@
+## [1.0.7](https://github.com/kilianpaquier/pooling/compare/v1.0.6...v1.0.7) (2025-01-09)
+
+### Chores
+
+* **deps:** remove testify direct dependency ([505ad34](https://github.com/kilianpaquier/pooling/commit/505ad34cafbaf883a866e186e4105803f571850f))
+
 ## [1.0.6](https://github.com/kilianpaquier/pooling/compare/v1.0.5...v1.0.6) (2024-12-10)
 
 ### Chores
