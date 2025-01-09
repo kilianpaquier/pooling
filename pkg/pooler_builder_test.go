@@ -1,11 +1,10 @@
 package pooling_test
 
 import (
+	"errors"
 	"testing"
 
 	"github.com/panjf2000/ants/v2"
-	"github.com/stretchr/testify/assert"
-	"github.com/stretchr/testify/require"
 
 	pooling "github.com/kilianpaquier/pooling/pkg"
 )
@@ -16,7 +15,9 @@ func TestBuild(t *testing.T) {
 		_, err := pooling.NewPoolerBuilder().Build()
 
 		// Assert
-		assert.Equal(t, pooling.ErrMinimalSizes, err)
+		if !errors.Is(err, pooling.ErrMinimalSizes) {
+			t.Fatal(err)
+		}
 	})
 
 	t.Run("error_pool_creation", func(t *testing.T) {
@@ -27,17 +28,19 @@ func TestBuild(t *testing.T) {
 			Build()
 
 		// Assert
-		assert.ErrorContains(t, err, ants.ErrInvalidPreAllocSize.Error())
+		if !errors.Is(err, ants.ErrInvalidPreAllocSize) {
+			t.Fatal(err)
+		}
 	})
 
 	t.Run("success", func(t *testing.T) {
-		// Act
+		// Act & Assert
 		pooler, err := pooling.NewPoolerBuilder().
 			SetSizes(1, 2, 3).
 			Build()
-
-		// Assert
-		require.NoError(t, err)
+		if err != nil {
+			t.Fatal(err)
+		}
 		pooler.Close()
 	})
 }
