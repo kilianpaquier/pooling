@@ -1,3 +1,9 @@
+## [1.0.10](https://github.com/kilianpaquier/pooling/compare/v1.0.9...v1.0.10) (2025-02-24)
+
+### Chores
+
+* add pre-commit configuration ([6d55c9a](https://github.com/kilianpaquier/pooling/commit/6d55c9a51db685a332c9265e0151d3804b8e5b29))
+
 ## [1.0.9](https://github.com/kilianpaquier/pooling/compare/v1.0.8...v1.0.9) (2025-02-10)
 
 ### Chores
