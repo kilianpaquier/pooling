@@ -1,3 +1,9 @@
+## [1.0.11](https://github.com/kilianpaquier/pooling/compare/v1.0.10...v1.0.11) (2025-03-10)
+
+### Chores
+
+* **deps:** bump github.com/panjf2000/ants/v2 in the minor-patch group ([8c108d2](https://github.com/kilianpaquier/pooling/commit/8c108d20f335b53c331a87eb1a3eb8d18ca98aab))
+
 ## [1.0.10](https://github.com/kilianpaquier/pooling/compare/v1.0.9...v1.0.10) (2025-02-24)
 
 ### Chores
