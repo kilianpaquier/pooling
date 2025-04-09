@@ -1,3 +1,9 @@
+## [1.0.12](https://github.com/kilianpaquier/pooling/compare/v1.0.11...v1.0.12) (2025-04-09)
+
+### Chores
+
+* **deps:** upgrade dependencies ([ab38784](https://github.com/kilianpaquier/pooling/commit/ab387843f4672b40d9cdd726ed6ad4d8c7273fa2))
+
 ## [1.0.11](https://github.com/kilianpaquier/pooling/compare/v1.0.10...v1.0.11) (2025-03-10)
 
 ### Chores
