@@ -1,5 +1,5 @@
 /*
-The pooling package allows one to dispatch an infinite number of functions to be
+Package pooling allows one to dispatch an infinite number of functions to be
 executed in parallel while still limiting the number of routines.
 
 For that, pooling package takes advantage of ants pool library.
