@@ -1,3 +1,25 @@
+## [1.0.14](https://github.com/kilianpaquier/pooling/compare/v1.0.13...v1.0.14) (2025-10-26)
+
+### Documentation
+
+* **security:** add security notice ([925c320](https://github.com/kilianpaquier/pooling/commit/925c3202209edee70d0e57969e09083cbe15e2b3))
+
+### Continuous Integration
+
+* **dependabot:** remove reviewers in favor of CODEOWNERS ([2810225](https://github.com/kilianpaquier/pooling/commit/28102254f2c81a5b2b851f9e71c766bd78864f51))
+* **deps:** bump cycjimmy/semantic-release-action ([ab2e2fb](https://github.com/kilianpaquier/pooling/commit/ab2e2fb7aa670762c766cf81a0c8fdadacad628f))
+* **deps:** bump golangci/golangci-lint-action ([8c5033e](https://github.com/kilianpaquier/pooling/commit/8c5033e47e786fcb8d4c91950f96638d220cb470))
+* **deps:** bump ossf/scorecard-action in the major-minor-patch group ([c4cc42c](https://github.com/kilianpaquier/pooling/commit/c4cc42c278025c17b2832bfdde2c09ef67c662fd))
+* **deps:** bump the major-minor-patch group with 2 updates ([0e254c9](https://github.com/kilianpaquier/pooling/commit/0e254c98237adf4c5aa91e3b9bbf0e2a301a1e53))
+* **deps:** bump the major-minor-patch group with 2 updates ([4113b21](https://github.com/kilianpaquier/pooling/commit/4113b21e2a000ba4cad1f748e53e1e3c08d4c016))
+* **layout:** regenerate kickr layout ([0d76a50](https://github.com/kilianpaquier/pooling/commit/0d76a505b0d338a17f3c0ada71d26ab822833594))
+* **layout:** regenerate kickr layout ([2233679](https://github.com/kilianpaquier/pooling/commit/2233679a0520e3bbe5bb310d7bda0125452ff9ed))
+* **layout:** regenerate layout ([fe47f4e](https://github.com/kilianpaquier/pooling/commit/fe47f4ec10a9cd8584d0a59c36b700b52ab647d2))
+* **layout:** regenerate layout ([6785a09](https://github.com/kilianpaquier/pooling/commit/6785a09135fbd773c895b1a49dda7ff70fb970c3))
+* **layout:** regenerate partial kickr layout ([9ce00fe](https://github.com/kilianpaquier/pooling/commit/9ce00fe777bcd88247ba8e471ca28f5c3e498426))
+* **layout:** regenerated project layout ([9f46e53](https://github.com/kilianpaquier/pooling/commit/9f46e53641d57c4f483c73bf930aa5c94d50f2d2))
+* migrate from craft to kickr generation ([223b2bf](https://github.com/kilianpaquier/pooling/commit/223b2bfd371992cad1f86cd23b98d0cbf466d54e))
+
 ## [1.0.13](https://github.com/kilianpaquier/pooling/compare/v1.0.12...v1.0.13) (2025-04-29)
 
 ### Chores
