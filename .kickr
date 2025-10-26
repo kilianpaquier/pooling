@@ -7,7 +7,7 @@ ci:
     - codecov
     - codeql
     - harden-runner
-    - kickr:personal-token
+    - kickr:github-app
     - ossf-scorecard
   release:
     auth: github-token

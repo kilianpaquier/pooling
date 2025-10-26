@@ -27,9 +27,15 @@ jobs:
         with:
           disable-sudo-and-containers: true
           egress-policy: audit
+      - id: app_token
+        uses: actions/create-github-app-token@bf559f85448f9380bcfa2899dbdc01eb5b37be3a # v3.0.0-beta.2
+        with:
+          app-id: ${{ vars.KICKR_APP_ID }}
+          private-key: ${{ secrets.KICKR_PRIVATE_KEY }}
       - uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 # v5.0.0
         with:
           fetch-depth: 0
+          token: ${{ steps.app_token.outputs.token }}
       - uses: actions/setup-go@44694675825211faa026b3c33043df3e48a5fa00 # v6.0.0
         with:
           check-latest: true
@@ -47,4 +53,4 @@ jobs:
           sign-commits: true
           signoff: true
           title: "ci(layout): regenerate kickr layout"
-          token: ${{ secrets.KICKR_TOKEN }}
+          token: ${{ steps.app_token.outputs.token }}
