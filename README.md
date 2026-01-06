@@ -1,15 +1,13 @@
 # pooling <!-- omit in toc -->
 
-<p align="center">
-  <img alt="GitHub Release" src="https://img.shields.io/github/v/release/kilianpaquier/pooling?include_prereleases&sort=semver&style=for-the-badge">
-  <img alt="GitHub Issues" src="https://img.shields.io/github/issues-raw/kilianpaquier/pooling?style=for-the-badge">
-  <img alt="GitHub License" src="https://img.shields.io/github/license/kilianpaquier/pooling?style=for-the-badge">
-  <img alt="GitHub Actions" src="https://img.shields.io/github/actions/workflow/status/kilianpaquier/pooling/integration.yml?style=for-the-badge">
-  <img alt="Coverage" src="https://img.shields.io/codecov/c/github/kilianpaquier/pooling?style=for-the-badge">
-  <img alt="Go Version" src="https://img.shields.io/github/go-mod/go-version/kilianpaquier/pooling?style=for-the-badge">
-  <img alt="Go Report Card" src="https://goreportcard.com/badge/github.com/kilianpaquier/pooling?style=for-the-badge">
-  <img alt="OpenSSF Scorecard" src="https://img.shields.io/ossf-scorecard/github.com/kilianpaquier/pooling?label=OpenSSF+Scorecard&style=for-the-badge">
-</p>
+<div align="center">
+  <img alt="GitLab Release" src="https://img.shields.io/gitlab/v/release/kilianpaquier%2Fpooling?gitlab_url=https%3A%2F%2Fgitlab.com&include_prereleases&sort=semver&style=for-the-badge">
+  <img alt="GitLab Issues" src="https://img.shields.io/gitlab/issues/open/kilianpaquier%2Fpooling?gitlab_url=https%3A%2F%2Fgitlab.com&style=for-the-badge">
+  <img alt="GitLab License" src="https://img.shields.io/gitlab/license/kilianpaquier%2Fpooling?gitlab_url=https%3A%2F%2Fgitlab.com&style=for-the-badge">
+  <img alt="GitLab CICD" src="https://img.shields.io/gitlab/pipeline-status/kilianpaquier%2Fpooling?gitlab_url=https%3A%2F%2Fgitlab.com&branch=main&style=for-the-badge">
+  <img alt="Go Version" src="https://img.shields.io/gitlab/go-mod/go-version/kilianpaquier/pooling?style=for-the-badge">
+  <img alt="Go Report Card" src="https://goreportcard.com/badge/gitlab.com/kilianpaquier/pooling?style=for-the-badge">
+</div>
 
 ---
 
