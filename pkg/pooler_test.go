@@ -5,6 +5,7 @@ import (
 
 	"github.com/panjf2000/ants/v2"
 
+	"github.com/kilianpaquier/pooling/internal/testutils"
 	pooling "github.com/kilianpaquier/pooling/pkg"
 )
 
@@ -15,17 +16,15 @@ func TestRead(t *testing.T) {
 			SetSizes(1).
 			SetOptions(ants.WithNonblocking(true)).
 			Build()
-		if err != nil {
-			t.Fatal(err)
-		}
+		testutils.NoError(testutils.Require(t), err)
 		t.Cleanup(pooler.Close)
 
 		input := make(chan pooling.PoolerFunc)
 
 		defer func() {
-			if err := recover(); err == nil {
-				t.Fail()
-			}
+			err, ok := recover().(error)
+			testutils.True(t, ok)
+			testutils.Error(t, err)
 		}()
 
 		// Act
@@ -48,9 +47,7 @@ func TestRead(t *testing.T) {
 				ants.WithPanicHandler(func(_ any) { panicked = true }),
 			).
 			Build()
-		if err != nil {
-			t.Fatal(err)
-		}
+		testutils.NoError(testutils.Require(t), err)
 		t.Cleanup(pooler.Close)
 
 		input := make(chan pooling.PoolerFunc)
@@ -65,9 +62,7 @@ func TestRead(t *testing.T) {
 
 		// Assert
 		pooler.Read(input)
-		if !panicked {
-			t.Fail()
-		}
+		testutils.True(t, panicked)
 	})
 
 	t.Run("success_less_pools", func(t *testing.T) {
@@ -75,9 +70,7 @@ func TestRead(t *testing.T) {
 		pooler, err := pooling.NewPoolerBuilder().
 			SetSizes(1, 1, 1). // less pools than limit
 			Build()
-		if err != nil {
-			t.Fatal(err)
-		}
+		testutils.NoError(testutils.Require(t), err)
 		t.Cleanup(pooler.Close)
 
 		limit := 5    // do 5 levels of recursive calls
@@ -93,9 +86,7 @@ func TestRead(t *testing.T) {
 		pooler.Read(input)
 
 		// Assert
-		if limit != subcalls {
-			t.Fail()
-		}
+		testutils.Equal(t, limit, subcalls)
 	})
 
 	t.Run("success_same_pools", func(t *testing.T) {
@@ -103,9 +94,7 @@ func TestRead(t *testing.T) {
 		pooler, err := pooling.NewPoolerBuilder().
 			SetSizes(1, 1, 1, 1, 1). // same number of pools as limit
 			Build()
-		if err != nil {
-			t.Fatal(err)
-		}
+		testutils.NoError(testutils.Require(t), err)
 		t.Cleanup(pooler.Close)
 
 		limit := 5    // do 5 levels of recursive calls
@@ -121,9 +110,7 @@ func TestRead(t *testing.T) {
 		pooler.Read(input)
 
 		// Assert
-		if limit != subcalls {
-			t.Fail()
-		}
+		testutils.Equal(t, limit, subcalls)
 	})
 
 	t.Run("success_more_pools", func(t *testing.T) {
@@ -131,9 +118,7 @@ func TestRead(t *testing.T) {
 		pooler, err := pooling.NewPoolerBuilder().
 			SetSizes(1, 1, 1, 1, 1, 1, 1). // more pools than limit
 			Build()
-		if err != nil {
-			t.Fatal(err)
-		}
+		testutils.NoError(testutils.Require(t), err)
 		t.Cleanup(pooler.Close)
 
 		limit := 5    // do 5 levels of recursive calls
@@ -149,9 +134,7 @@ func TestRead(t *testing.T) {
 		pooler.Read(input)
 
 		// Assert
-		if limit != subcalls {
-			t.Fail()
-		}
+		testutils.Equal(t, limit, subcalls)
 	})
 }
 
