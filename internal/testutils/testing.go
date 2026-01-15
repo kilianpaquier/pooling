@@ -13,6 +13,13 @@ type require struct {
 	testing.TB
 }
 
+// Error logs the args and fails the test immediately.
+func (r require) Error(args ...any) {
+	r.Helper()
+	r.Log(args...)
+	r.FailNow()
+}
+
 // Errorf logs the formatted error message and fails the test immediately.
 func (r require) Errorf(format string, args ...any) {
 	r.Helper()
@@ -59,7 +66,7 @@ func NoError(t testing.TB, err error) {
 }
 
 // True asserts that the condition is true.
-func True(t testing.TB, condition bool) { //nolint:revive // input condition to control flow
+func True(t testing.TB, condition bool) { //nolint:revive
 	t.Helper()
 	if !condition {
 		t.Error("expected true, got false")
