@@ -1,3 +1,25 @@
+## [1.0.15](https://gitlab.com/kilianpaquier/pooling/compare/v1.0.14...v1.0.15) (2026-01-20)
+
+### Chores
+
+* **deps:** update module github.com/panjf2000/ants/v2 to v2.11.4 ([7fdd1fc](https://gitlab.com/kilianpaquier/pooling/commit/7fdd1fc4e26ae205c683c1600849aab6a9795473))
+
+### Continuous Integration
+
+* **deps:** update dependency go to v1.25.4 ([b2463e4](https://gitlab.com/kilianpaquier/pooling/commit/b2463e42a4b17df0a3dc74ab243da1b41e50c019))
+* **deps:** update dependency go to v1.25.5 ([aac4a87](https://gitlab.com/kilianpaquier/pooling/commit/aac4a87d51e90811f2d89b57a2b3996248fcd4ce))
+* **deps:** update dependency go to v1.25.6 ([e5b99f8](https://gitlab.com/kilianpaquier/pooling/commit/e5b99f89c2697e3ef96368e8d08a352cbf3b0c7d))
+* **kickr:** use GitHub App instead of personal token ([e16d97b](https://gitlab.com/kilianpaquier/pooling/commit/e16d97ba2b4c9492e4f6014f4a6a39e25d36d8ea))
+* **layout:** migrate to GitLab CICD ([f548c30](https://gitlab.com/kilianpaquier/pooling/commit/f548c3028e9788d74edb13b648fc471baf94469b))
+* **layout:** regenerate kickr layout ([9b2c43f](https://gitlab.com/kilianpaquier/pooling/commit/9b2c43f20b6b4def1f4838a7ef0dcf9ffe429709))
+* **layout:** regenerate kickr layout ([56f50bf](https://gitlab.com/kilianpaquier/pooling/commit/56f50bff217f6837f85a883bf2b33be083ee4172))
+* **layout:** regenerate kickr layout ([dd71803](https://gitlab.com/kilianpaquier/pooling/commit/dd71803274494321c761142fb3f40a41a2007a1b))
+
+### Tests
+
+* add missing t.Helper() on internal testing func ([4f973b4](https://gitlab.com/kilianpaquier/pooling/commit/4f973b49682a29122e8215f4d0f38082ffd547b6))
+* setup internal simple testing functions ([67a639c](https://gitlab.com/kilianpaquier/pooling/commit/67a639caf7d7e14fe261f82a48653234ff55775e))
+
 ## [1.0.14](https://github.com/kilianpaquier/pooling/compare/v1.0.13...v1.0.14) (2025-10-26)
 
 ### Documentation
