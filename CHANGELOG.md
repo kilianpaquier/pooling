@@ -1,3 +1,17 @@
+## [1.0.16](https://gitlab.com/kilianpaquier/pooling/compare/v1.0.15...v1.0.16) (2026-02-19)
+
+### Chores
+
+* **deps:** update module github.com/panjf2000/ants/v2 to v2.11.5 ([3500afa](https://gitlab.com/kilianpaquier/pooling/commit/3500afae1e862d4efd792ea9852f6ba99159059b))
+
+### Continuous Integration
+
+* **deps:** update dependency go to v1.25.7 ([f884907](https://gitlab.com/kilianpaquier/pooling/commit/f884907af29df10af511dc3fe809e78deae8c891))
+* **deps:** update dependency go to v1.26.0 ([aa28dce](https://gitlab.com/kilianpaquier/pooling/commit/aa28dce4ed48eafec7fd155a4257dc72102aaf4f))
+* **layout:** regenerate kickr layout ([464a28b](https://gitlab.com/kilianpaquier/pooling/commit/464a28be8049b67e68a91f68d217a1f943893a6d))
+* **layout:** regenerate kickr layout ([22e2db4](https://gitlab.com/kilianpaquier/pooling/commit/22e2db4d30cb6b81b7b3b28480713a035a3572c4))
+* **sbom:** fix invalid options ([281e99e](https://gitlab.com/kilianpaquier/pooling/commit/281e99e840a6646e2ba56aa38efcc4ea2c364ff8))
+
 ## [1.0.15](https://gitlab.com/kilianpaquier/pooling/compare/v1.0.14...v1.0.15) (2026-01-20)
 
 ### Chores
