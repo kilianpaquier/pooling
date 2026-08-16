@@ -1,3 +1,30 @@
+## [1.0.18](https://gitlab.com/kilianpaquier/pooling/compare/v1.0.17...v1.0.18) (2026-08-16)
+
+### Documentation
+
+* **readme:** add back documentation ([312c1c9](https://gitlab.com/kilianpaquier/pooling/commit/312c1c985b5d1901c27d845acaf22cc0f476b017))
+* **readme:** update link to pkg.go.dev to point to `pkg` package directly ([6c74a61](https://gitlab.com/kilianpaquier/pooling/commit/6c74a614fb30a63b55ac96805d7a7b783a79da3d))
+
+### Chores
+
+* **deps:** update go dependencies to v2.12.1 ([c45a456](https://gitlab.com/kilianpaquier/pooling/commit/c45a456f8eafdbd1fb9105b39fa250ddc9e13786))
+* **deps:** update module github.com/panjf2000/ants/v2 to v2.12.0 ([15a2009](https://gitlab.com/kilianpaquier/pooling/commit/15a20098f20a9f1c579f5741b96889bc5c9081dd))
+* **layout:** regenerate kickr layout ([71ab29a](https://gitlab.com/kilianpaquier/pooling/commit/71ab29a661d034f295e51dffc7190a901232a52b))
+
+### Continuous Integration
+
+* **deps:** update dependency go to v1.26.2 ([bfd7187](https://gitlab.com/kilianpaquier/pooling/commit/bfd7187efa6e4183551454d59e17089021ae1302))
+* **deps:** update go toolchain dependency to v1.26.4 ([bc8de69](https://gitlab.com/kilianpaquier/pooling/commit/bc8de69e8aa3cdf6bd093032f4bf6b2a2b732444))
+* **deps:** update go toolchain directive to v1.26.3 ([a6ecd60](https://gitlab.com/kilianpaquier/pooling/commit/a6ecd60b663613be38a5aeac955eae5bd1ac3be6))
+* **deps:** update go toolchain directive to v1.26.5 ([00ee4c3](https://gitlab.com/kilianpaquier/pooling/commit/00ee4c3fff4ecdf1fbf45c4c174a357107c33d2e))
+* **layout:** regenerate kickr layout ([f93136b](https://gitlab.com/kilianpaquier/pooling/commit/f93136bd900be9e3448fee2e8926ace5cd1bde89))
+* **layout:** regenerate kickr layout ([7a8ad94](https://gitlab.com/kilianpaquier/pooling/commit/7a8ad94b8b61dc321f60da7d3d4e4cef41a1a186))
+* **layout:** regenerate kickr layout ([3bd6eec](https://gitlab.com/kilianpaquier/pooling/commit/3bd6eecfa312a21cd7a2419b0f46fe5f745bfc0d))
+* **layout:** regenerate kickr layout ([e76f5e7](https://gitlab.com/kilianpaquier/pooling/commit/e76f5e7a84a0f8bff76dffd79adeb35f2dfe3aed))
+* **layout:** regenerate kickr layout ([f0ed08a](https://gitlab.com/kilianpaquier/pooling/commit/f0ed08af09531c3b1b6dd7e097f8cb3e4c0ec2b2))
+* **layout:** regenerate kickr layout ([34ae93b](https://gitlab.com/kilianpaquier/pooling/commit/34ae93b878886a32e1f1cd60040d199e8224bf38))
+* **layout:** regenerate kickr layout ([58d4498](https://gitlab.com/kilianpaquier/pooling/commit/58d44988dbcc2efb5c4ec33178fcbcbc68dec64a))
+
 ## [1.0.17](https://gitlab.com/kilianpaquier/pooling/compare/v1.0.16...v1.0.17) (2026-03-16)
 
 ### Chores
