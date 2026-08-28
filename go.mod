@@ -2,7 +2,7 @@ module github.com/kilianpaquier/pooling
 
 go 1.23.0
 
-toolchain go1.26.6
+toolchain go1.27.0
 
 require github.com/panjf2000/ants/v2 v2.12.1
 
