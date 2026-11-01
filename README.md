@@ -1,24 +1,16 @@
 # pooling <!-- omit in toc -->
 
 <div align="center">
-  <a href="https://gitlab.com/kilianpaquier/pooling/-/releases">
-    <img alt="GitLab Release" src="https://img.shields.io/gitlab/v/release/kilianpaquier%2Fpooling?gitlab_url=https%3A%2F%2Fgitlab.com&include_prereleases&sort=semver&style=for-the-badge">
-  </a>
-  <a href="https://gitlab.com/kilianpaquier/pooling/-/work_items">
-    <img alt="GitLab Issues" src="https://img.shields.io/gitlab/issues/open/kilianpaquier%2Fpooling?gitlab_url=https%3A%2F%2Fgitlab.com&style=for-the-badge">
-  </a>
-  <a href="https://gitlab.com/kilianpaquier/pooling/-/blob/HEAD/LICENSE">
-    <img alt="GitLab License" src="https://img.shields.io/gitlab/license/kilianpaquier%2Fpooling?gitlab_url=https%3A%2F%2Fgitlab.com&style=for-the-badge">
-  </a>
-  <a href="https://gitlab.com/kilianpaquier/pooling/-/pipelines?ref=main">
-    <img alt="GitLab CICD" src="https://img.shields.io/gitlab/pipeline-status/kilianpaquier%2Fpooling?gitlab_url=https%3A%2F%2Fgitlab.com&branch=main&style=for-the-badge">
-  </a>
-  <a href="https://gitlab.com/kilianpaquier/pooling/-/blob/HEAD/go.mod">
-    <img alt="Go Version" src="https://img.shields.io/gitlab/go-mod/go-version/kilianpaquier/pooling?style=for-the-badge">
-  </a>
-  <a href="https://score.getplumber.io/gitlab.com/kilianpaquier/pooling">
-    <img alt="Plumber Score" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fscore.getplumber.io%2Fgitlab.com%2Fkilianpaquier%2Fpooling.json&style=for-the-badge">
-  </a>
+
+<!-- BEGIN_KICKR_BADGES -->
+[![GitLab Release](https://img.shields.io/gitlab/v/release/kilianpaquier%2Fpooling?gitlab_url=https%3A%2F%2Fgitlab.com&include_prereleases&sort=semver&style=for-the-badge)](https://gitlab.com/kilianpaquier/pooling/-/releases)
+[![GitLab Issues](https://img.shields.io/gitlab/issues/open/kilianpaquier%2Fpooling?gitlab_url=https%3A%2F%2Fgitlab.com&style=for-the-badge)](https://gitlab.com/kilianpaquier/pooling/-/work_items)
+[![GitLab License](https://img.shields.io/gitlab/license/kilianpaquier%2Fpooling?gitlab_url=https%3A%2F%2Fgitlab.com&style=for-the-badge)](https://gitlab.com/kilianpaquier/pooling/-/blob/HEAD/LICENSE)
+[![GitLab CICD](https://img.shields.io/gitlab/pipeline-status/kilianpaquier%2Fpooling?gitlab_url=https%3A%2F%2Fgitlab.com&branch=main&style=for-the-badge)](https://gitlab.com/kilianpaquier/pooling/-/pipelines?ref=main)
+[![Go Version](https://img.shields.io/gitlab/go-mod/go-version/kilianpaquier/pooling?style=for-the-badge)](https://gitlab.com/kilianpaquier/pooling/-/blob/HEAD/go.mod)
+[![Plumber Score](https://img.shields.io/endpoint?url=https%3A%2F%2Fscore.getplumber.io%2Fgitlab.com%2Fkilianpaquier%2Fpooling.json&style=for-the-badge)](https://score.getplumber.io/gitlab.com/kilianpaquier/pooling)
+<!-- END_KICKR_BADGES -->
+
 </div>
 
 ---
